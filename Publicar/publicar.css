@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+
+.filho1 {
+    background-color: black;
+    width: 100vw;    
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.1rem;
+}
+
+
+.filho2 {
+    background-color: black;
+    width: 100vw;    
+    height: 8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 4rem;
+}
+
+h1 {
+    color: white;
+    font-size: 4.4rem;
+    font-family: 'Inter';
+    font-style: normal;
+    position: relative;
+    left: 3rem;
+}
+
+input {
+    border-radius: 2rem;
+    width: 40rem;
+    height: 5rem;
+}
+
+.gambiarra {
+    display: flex;
+    justify-content: center;
+    width: 170rem;
+}
+
+.seta{
+    background-color: transparent;
+    border: transparent;
+    top: 3rem;
+    left: 3rem;
+    position: absolute;
+}
+
+.iconepesquisa{
+    position: absolute;
+    right: 5rem;
+    background-color: transparent;
+    border: transparent;
+}
+
+.proximo {
+    background-color: #1145FF;
+    color: white;
+    width: 208px;
+    height: 73px;   
+    border-radius: 5rem;
+    position: absolute;
+    bottom: 5rem;
+    right: 5rem;
+    border: none;
+}
+
+main{
+    background-color: #ECECEC;
+    min-height: calc(100vh - 8rem - 8rem - 0.1rem);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpoartigo {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    text-align: center;
+    border-radius: 3rem;
+    margin-bottom: 1rem;
+}
+
+.artigo {
+    height: 40rem;
+    text-align: start;
+    border-radius: 1rem;
+}
+
+.foto {
+    position: relative;
+    left: 72rem;
+}
+
+.usuario {
+    position: relative;
+    left: 66.3rem;
+}
