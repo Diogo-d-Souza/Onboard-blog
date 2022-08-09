@@ -102,6 +102,8 @@ main{
     height: 40rem;
     text-align: start;
     border-radius: 1rem;
+    padding-left: 1rem;
+    resize: none;
 }
 
 .foto {
@@ -113,3 +115,4 @@ main{
     position: relative;
     left: 66.3rem;
 }
+
