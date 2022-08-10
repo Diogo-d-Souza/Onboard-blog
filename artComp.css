@@ -1,0 +1,246 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #ECECEC;
+}
+
+.filho1 {
+    background-color: black;
+    width: 100vw;
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 0.1rem;
+
+}
+
+
+.filho2 {
+    background-color: black;
+    width: 100vw;
+    height: 8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 4rem;
+
+}
+
+h1 {
+    color: white;
+    font-size: 4.4rem;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+input {
+    border-radius: 2rem;
+    width: 40rem;
+    height: 5rem;
+}
+
+.gambiarra {
+    display: flex;
+    justify-content: center;
+    width: 170rem;
+}
+.iconepesquisa {
+    position: absolute;
+    right: 5rem;
+    background-color: transparent;
+    border: transparent;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.back{
+ background-color: transparent;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 10rem;
+    
+}
+.princ{
+    display: flex;
+    flex-direction: column;
+  
+      
+}
+.retangulo{
+    background: #D9D9D9;
+    width: 80rem;
+    height:100rem;
+    border-radius: 2rem;
+    margin-top: 5rem;  
+   
+}
+
+.retangulo2{
+
+    width: 80rem;
+    height: 5rem;
+    background-color: #D9D9D9;
+    align-self: flex-end;
+    border-radius: 2.5rem;
+    margin-top: 0.5rem;
+    
+
+    
+}
+.stars{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+.stars2{
+    display: flex;
+    margin-top: -5rem;
+    margin-left: 63rem;
+    ;
+}
+.publicar{
+    width: 10rem;
+    height:3rem;
+    background-color:#1145FFBF;
+    border-radius: 2.6rem;
+    margin-top: 0.5rem;
+    border: none;
+    cursor: pointer;
+
+}
+hr{
+    display: flex;
+    margin-top: 5rem;
+}
+.titulo{
+    display: flex;
+   justify-content: center;
+   margin-top: 5rem;
+   color: black;
+}
+.imagem1{ 
+    display: flex;
+  margin-left: 20.5rem;
+    margin-top: 3rem;
+    max-width:40rem;
+    max-height:50rem;
+    border-radius: 2.4rem;
+}
+h2{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+h4{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.publicar{
+    color: #FFFFFF;
+    margin-left: 70rem;
+}
+.linha1{
+    color: black;
+}
+
+.quadrado1{
+   
+    border-style: solid;
+    width: 15.9rem;
+    height: 12.2em;
+    background-color: #ECECEC;
+    border-color: black;
+    border-radius: 1.2rem;
+    margin-top: 15rem;
+    cursor: pointer;
+    
+}
+.quadrado2{
+    width: 15.9rem;
+    height: 12.2em;
+    border-style: solid;
+
+    background-color: #ECECEC;
+    border-radius: 1.2rem;
+    margin-top: 4rem;
+    cursor: pointer;
+
+}
+.quadrado3{
+    width: 15.9rem;
+    height: 12.2em;
+    border-style: solid;
+    background-color: #ECECEC;
+    border-radius: 1.2rem;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+.vermais{
+    margin-top: 58rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+
+}
+.stars3{
+    margin-left: 5.5rem;
+    margin-top: 0.3rem;
+}
+.stars4{
+    margin-left: 5.5rem;
+    margin-top: 0.3rem;
+}
+.stars5{
+    margin-left: 5.5rem;
+    margin-top: 0.3rem;
+}
+.texto2{
+    margin-left: 9rem;
+    font-size: small;
+    font-size: 1rem;
+}
+.texto3{
+    margin-left: 9rem;
+    font-size: small;
+    font-size: 1rem;
+}
+.texto4{
+    margin-left: 9rem;
+    font-size: small;
+    font-size: 1rem;
+}
+.img3{
+    margin-top: -9.8rem;
+}
+.img4{
+    margin-top: -9.8rem;
+}
+.img5{
+    margin-top: -9.8rem;
+}
+
+.artigos{
+    margin-top: -53rem;
+    font-size: 2.5rem;
+    
+}
+.quadrados{
+    
+    margin-left: 3rem;
+}
