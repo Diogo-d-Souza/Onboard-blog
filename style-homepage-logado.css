@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 136.7rem;
+    height: 17.7rem;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    margin-top: 3.7rem;
+    padding-right: 31.2rem;
+    font-size: 3.6rem;
+}
+
+.header-sup {
+    display: flex;
+    height: 9.5rem;
+    width: 136.7rem;
+    align-items: center;
+    margin-bottom: 0.1rem;
+}
+
+h1 {
+    margin-left: 51.9rem;
+}
+
+.foto {
+    position: absolute;
+    width: 9.5rem;
+    height: 6.8rem;
+    margin-left: 123rem;
+}
+
+.usuario {
+    position: relative;
+    margin-left: 13rem;
+
+}
+
+.linha-branca {
+    height: 0.1rem;
+    width: 136.7rem;
+    background-color: white;
+}
+
+.header-inf {
+    display: flex;
+    justify-content: end;
+    height: 8rem;
+}
+
+.pesquisar {
+    width: 41.5rem;
+    height: 4.708rem;
+    margin-top: 1.2rem;
+    margin-right: 4.2rem;
+    border-radius: 1.6rem;
+    
+}
+
+.botao-lupa {
+    border: none;
+    background-color: transparent;
+    margin-right: 6.1rem;
+    margin-top: 1.7rem;
+    position: absolute;
+}
+
+.button-artigo {
+    display: flex;
+    align-items: center;
+    background: #A5A5A5;
+    border-radius: 16px;
+    margin-left: 5.8rem;
+    margin-top: 2.5rem;
+}
+
+.artigo-principal {
+    display: flex;
+    width: 77.7rem;
+    height: 21.7rem;
+    margin-left: 14.8rem;
+    margin-top: 5.6rem;
+    border: 0.1rem solid #000000;
+    background-color: #FDFDFD;
+    border-radius: 1.6rem;
+}
+
+.img-principal {
+    width: 30.7rem;
+    height: 21.6rem;
+    border-radius: 1.6rem;
+}
+
+.conteudo {
+    display: flex;
+    width: 150rem;
+    height: 10rem;
+    flex-direction: column;
+}
+
+.titulos-principal {
+    display: flex;
+    justify-content:space-between;
+}
+
+.h2-principal {
+    margin-right: 10.1rem;
+    margin-left: 1.2rem;
+    margin-top: 1.8rem;
+    margin-bottom: 2.2rem;
+    font-size: 2rem;
+}
+
+.h3-principal {
+    margin-right: 4.1rem;
+    margin-top: 2.3rem;
+    margin-bottom: 2.4rem;
+    font-size: 1.4rem;
+}
+
+.p-principal {
+    margin-left: 1.2rem;
+    margin-right: 2.1rem;
+    font-size: 1.4rem;
+}
+
+.estrelas {
+    display: flex;
+    width: 15.3rem;
+    height: 2.5rem;
+    margin-left: 76.2rem;
+    margin-top: 0.7rem;
+    justify-content: end;
+}
+
+.artigo-sec-1 {
+    display: flex;
+    width: 24.2rem;
+    height: 15.3rem;
+    border: 0.1rem solid #000000;
+    border-radius: 1.6rem;
+    background-color: #FDFDFD;
+    margin-left: 8.4rem;
+    margin-top: 5.2rem;
+}
+
+.img-sec {
+    width: 11.3rem;
+    height: 15.1rem;
+    border-radius: 1.6rem;
+}
+
+.conteudo-sec {
+    display: flex;
+    width: 12.9rem;
+    height: 15.3rem;;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.4rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 0.3rem;
+    margin-bottom: 0.8rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 0.3rem;
+    margin-right: 1.2rem;
+}
+
+.estrelinhas {
+    display: flex;
+    width: 10.0rem;
+    height: 1.6rem;
+    justify-content: end;
+    margin-left: 20.8rem;
+    margin-top: 0.8rem;
+}
+
+.linha-artigos1, .linha-artigos2 {
+    display: flex;
+}
+
+main {
+    display: flex;
+}
+
+.ver-mais {
+    display: flex;
+    width: 9.4rem;
+    height: 1.9rem;
+    background-color: transparent;
+    border: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+    
+    
+}
+
+.botao-linha {
+    display: flex;
+    align-items:flex-end;
+    margin-left: 3.2rem;
+    border-right: 0.1rem solid black;
+}
+
+.filtros {
+    width: 16.9rem;
+    height: 24.7rem;
+    margin-top: 4.3rem;
+    margin-left: 0.5rem;
+}
+
+.h2-filtro {
+    font-weight: 400;
+    font-size: 3.2rem;
+}
+
+.icone-filtro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.filtro-1 {
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+span {
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-left: 0.4rem;
+}
+
+.filtro-2, .filtro-3, .filtro-4, .filtro-5 {
+    display: flex;
+    margin-top: 0.9rem;
+    align-items: center;
+}
