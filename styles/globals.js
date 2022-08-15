@@ -7,13 +7,24 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    html {
+        font-size: 62.5%;
+    }
+
     .button-artigo {
         display: flex;
         align-items: center;
+        justify-content: center;
         background: #A5A5A5;
         border-radius: 16px;
         margin-left: 5.8rem;
         margin-top: 2.5rem;
+        width: 15.4rem;
+        height: 4.9rem;
+    }
+
+    .p-butao {
+        font-size: 1.4rem;
     }
 
     .artigo-principal {
