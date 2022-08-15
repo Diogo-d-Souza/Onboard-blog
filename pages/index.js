@@ -3,7 +3,9 @@ import GlobalStyle from "../styles/globals";
 import Artigos from "./components/Artigos";
 import Filtros from "./components/Filtros";
 
-export default function Home (){
+
+
+export default function Home (){ 
   return (
     <>
       <GlobalStyle/>
@@ -22,7 +24,7 @@ export default function Home (){
 
             <section class="artigo-principal">
 
-                <img class="img-principal" src="imagens/imagem1.jpg" alt="Imagem 1"/> 
+                <img class="img-principal" src="" alt="Imagem 1"/> 
                 
                 <div class="conteudo">
 
@@ -95,11 +97,12 @@ export default function Home (){
                    
             </div>
 
-            <Filtros></Filtros>
-            <Filtros></Filtros>
-            <Filtros></Filtros>
-            <Filtros></Filtros>
-            <Filtros></Filtros>
+            <Filtros nome="Autor"></Filtros>
+            <Filtros nome="Ano de publicação"></Filtros>
+            <Filtros nome="Título"></Filtros>
+            <Filtros nome="Avaliação"></Filtros>
+            <Filtros nome="Tema"></Filtros>
+
         </div>
       </main>
     </>
