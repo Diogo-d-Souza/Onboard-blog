@@ -1,4 +1,3 @@
-import Header from "./components/Header";
 import GlobalStyle from "../styles/globals";
 import Artigos from "./components/Artigos";
 import Filtros from "./components/Filtros";
@@ -10,7 +9,6 @@ export default function Home (){
     <>
       <GlobalStyle/>
       
-        {/* <Header></Header> */}
         <Cabecalho></Cabecalho>
             <main>
             <div class="tela-conteudo">
