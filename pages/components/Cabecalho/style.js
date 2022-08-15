@@ -21,15 +21,20 @@ export const Header = styled.div`
         justify-content: flex-end;
     }
 
-    .botao_usuario {
-        width: 9.5rem;
-        height: 6.8rem;
-        border-radius: 50% 50%;
-        margin-right: 4.2rem;
+    .botao-login {
+        width: 84px;
+        height: 36px;
+        margin-right: 2.4rem;
+    }
+
+    .botao-cadastro {
+        width: 84px;
+        height: 36px;
+        margin-right: 4rem;
     }
 
     h1 {
-        margin-right: 9.5rem;
+        /* margin-right: 9.5rem; */
     }
 
     .linha_branca {
