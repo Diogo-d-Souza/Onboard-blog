@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Section = styled.div`
-    .artigo-sec-1 {
+    .artigo_sec-1 {
         display: flex;
         width: 24.2rem;
         height: 15.3rem;
@@ -12,13 +12,13 @@ export const Section = styled.div`
         margin-top: 5.2rem;
     }
 
-    .img-sec {
+    .img_sec {
         width: 11.3rem;
         height: 15.1rem;
         border-radius: 1.6rem;
     }
 
-    .conteudo-sec {
+    .conteudo_sec {
         display: flex;
         width: 12.9rem;
         height: 15.3rem;;

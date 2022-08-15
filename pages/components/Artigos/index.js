@@ -1,16 +1,16 @@
 import { Section } from "./style.js"
 
-export default function Artigos() {
+export default function Artigos(props) {
     return (
         <>
             <Section>
-                <section class="artigo-sec-1">
+                <section class="artigo_sec-1">
 
-                    <img class="img-sec" src="imagens/imagem2.jpg" alt="Imagem 2"/> 
+                    <img class="img_sec" src={props.imagem} alt="Imagem 2"/> 
                     
-                    <div class="conteudo-sec">
+                    <div class="conteudo_sec">
 
-                        <div class="titulos-sec">
+                        <div class="titulos_sec">
                             <h2>Título: Lorem Ipsum</h2>
 
                             <h3>Tema: Lorem Ipsum</h3>

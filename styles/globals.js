@@ -21,6 +21,7 @@ const GlobalStyle = createGlobalStyle`
         margin-top: 2.5rem;
         width: 15.4rem;
         height: 4.9rem;
+        gap: 1.48rem;
     }
 
     .p-butao {
@@ -127,7 +128,8 @@ const GlobalStyle = createGlobalStyle`
         background-color: transparent;
         border: none;
         font-weight: 400;
-        font-size: 1.6rem; 
+        font-size: 1.6rem;
+        justify-content: center;
     }
 `;
 export default GlobalStyle;
