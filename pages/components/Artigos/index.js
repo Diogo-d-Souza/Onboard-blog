@@ -6,7 +6,7 @@ export default function Artigos(props) {
             <Section>
                 <section class="artigo_sec-1">
 
-                    <img class="img_sec" src={props.imagem} alt="Imagem 2"/> 
+                    <img class="img_sec" src={props.imagem} alt={props.disc}/> 
                     
                     <div class="conteudo_sec">
 

@@ -1,4 +1,3 @@
-import Header from "./components/Header";
 import GlobalStyle from "../styles/globals";
 import Artigos from "./components/Artigos";
 import Filtros from "./components/Filtros";
@@ -10,7 +9,6 @@ export default function Home (){
     <>
       <GlobalStyle/>
       
-        {/* <Header></Header> */}
         <Cabecalho></Cabecalho>
             <main>
             <div class="tela-conteudo">
@@ -70,14 +68,14 @@ export default function Home (){
                 
 
             <div class="linha-artigos1">
-                <Artigos imagem="./imagem2.jpg"></Artigos>
-                <Artigos imagem="./imagem3.jpg"></Artigos>
-                <Artigos imagem="./imagem4.jpg"></Artigos>
+                <Artigos imagem="./imagem2.jpg" disc="Imagem 2"></Artigos>
+                <Artigos imagem="./imagem3.jpg" disc="Imagem 3"></Artigos>
+                <Artigos imagem="./imagem4.jpg" disc="Imagem 4"></Artigos>
             </div>
             <div class="linha-artigos2">
-                <Artigos imagem="./imagem5.jpg"></Artigos>
-                <Artigos imagem="./imagem6.jpg"></Artigos>
-                <Artigos imagem="./imagem7.jpg"></Artigos>
+                <Artigos imagem="./imagem5.jpg" disc="Imagem 5"></Artigos>
+                <Artigos imagem="./imagem6.jpg" disc="Imagem 6"></Artigos>
+                <Artigos imagem="./imagem7.jpg" disc="Imagem 7"></Artigos>
             </div>
 
             </div>
