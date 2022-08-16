@@ -20,18 +20,21 @@ export const Header = styled.div`
         color: white;
         font-size: 3.6rem;
         width: 100%;
+        position: absolute;
     }
 
     .botao-login {
         width: 84px;
         height: 36px;
         margin-right: 2.4rem;
+        position: relative;
     }
 
     .botao-cadastro {
         width: 84px;
         height: 36px;
         margin-right: 4rem;
+        position: relative;
     }
 
     .linha_branca {
