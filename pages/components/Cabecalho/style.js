@@ -22,7 +22,7 @@ export const Header = styled.div`
         color: white;
         font-size: 3.6rem;
         width: 100%;
-        margin-right: 8.825rem;
+        position: absolute;
     }
 
     .botao_usuario {
@@ -30,6 +30,7 @@ export const Header = styled.div`
         height: 6.8rem;
         border-radius: 50% 50%;
         margin-right: 4rem;
+        position: relative;
     }
 
     .linha_branca {
