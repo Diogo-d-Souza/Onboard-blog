@@ -29,7 +29,7 @@ export const Header = styled.div`
         width: 9.5rem;
         height: 6.8rem;
         border-radius: 50% 50%;
-        margin-right: 4.2rem;
+        margin-right: 4rem;
     }
 
     .linha_branca {
