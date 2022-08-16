@@ -11,6 +11,10 @@ const GlobalStyle = createGlobalStyle`
         font-size: 62.5%;
     }
 
+    main {
+        width: 100%;
+    }
+
     .button-artigo {
         display: flex;
         align-items: center;
@@ -117,7 +121,7 @@ const GlobalStyle = createGlobalStyle`
         margin-bottom: 6rem;
     }
 
-    main {
+    .main {
         display: flex;
     }
 
