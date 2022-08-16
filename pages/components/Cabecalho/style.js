@@ -21,7 +21,7 @@ export const Header = styled.div`
         font-size: 3.6rem;
         width: 100%;
     }
-    
+
     .botao-login {
         width: 84px;
         height: 36px;
