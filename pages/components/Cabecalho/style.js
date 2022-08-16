@@ -22,6 +22,7 @@ export const Header = styled.div`
         color: white;
         font-size: 3.6rem;
         width: 100%;
+        margin-right: 8.825rem;
     }
 
     .botao_usuario {
