@@ -5,13 +5,6 @@ export const Header = styled.div`
         height: 17.7rem;
         background-color: black;
 
-    h1 {
-        color: white;
-        margin-top: 3.7rem;
-        padding-right: 31.2rem;
-        font-size: 3.6rem;
-    }
-
     .header_sup {
         display: flex;
         height: 9.5rem;
@@ -21,6 +14,14 @@ export const Header = styled.div`
         justify-content: flex-end;
     }
 
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 3.6rem;
+        width: 100%;
+    }
+    
     .botao-login {
         width: 84px;
         height: 36px;
@@ -33,10 +34,6 @@ export const Header = styled.div`
         margin-right: 4rem;
     }
 
-    h1 {
-        /* margin-right: 9.5rem; */
-    }
-
     .linha_branca {
         height: 0.1rem;
         width: 100%;
@@ -45,7 +42,6 @@ export const Header = styled.div`
 
     .header_inf {
         display: flex;
-        /* justify-content: end; */
         height: 8rem;
         width: 100%;
     }
