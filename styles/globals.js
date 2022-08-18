@@ -117,7 +117,7 @@ const GlobalStyle = createGlobalStyle`
         margin-bottom: 6rem;
     }
 
-    main {
+    .main {
         display: flex;
     }
 

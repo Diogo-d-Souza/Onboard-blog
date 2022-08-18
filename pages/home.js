@@ -7,10 +7,10 @@ import Cabecalho_Logado from "../src/components/Cabecalho_Logado";
 export default function Home (){ 
   return (
     <>
-      <GlobalStyle/>
-      
-        <Cabecalho_Logado></Cabecalho_Logado>
-            <main>
+        <GlobalStyle/>
+        <main>
+            <Cabecalho_Logado></Cabecalho_Logado>
+            <div className="main">
                 <div className="tela_conteudo">
                     <button className="button_artigo">
                         <svg width="31" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -103,7 +103,8 @@ export default function Home (){
                     <Filtros_Logado nome="Tema"/>
 
                 </div>
-            </main>
+            </div>
+        </main>
     </>
   );
 
