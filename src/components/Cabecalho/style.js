@@ -23,11 +23,18 @@ export const Header = styled.div`
         position: absolute;
     }
 
-    .botao_usuario {
-        width: 9.5rem;
-        height: 6.8rem;
-        border-radius: 50% 50%;
+    .botao_login {
+        width: 84px;
+        height: 36px;
+        margin-right: 2.4rem;
+        position: relative;
+    }
+
+    .botao_cadastro {
+        width: 84px;
+        height: 36px;
         margin-right: 4rem;
+        position: relative;
     }
 
     .linha_branca {

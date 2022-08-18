@@ -1,6 +1,6 @@
 import { Filter } from "./style.js"
 
-export default function Filtros_Logado(props) {
+export default function Filtros(props) {
     return (
         <>
             <Filter>

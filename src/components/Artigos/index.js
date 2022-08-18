@@ -1,13 +1,12 @@
 import { Section } from "./style.js"
 
-export default function Artigos_Logado(props) {
+export default function Artigos(props) {
     return (
         <>
             <Section>
                 <section className="artigo_sec-1">
 
-                    <img className="img_sec" src={props.imagem} alt="Imagem 2"/> 
-
+                    <img className="img_sec" src={props.imagem} alt={props.disc}/> 
                     
                     <div className="conteudo_sec">
 

@@ -1,6 +1,6 @@
 import { Header } from "./style";
 
-export default function Cabecalho() {
+export default function Cabecalho_Logado() {
     return (
         <>
             <Header>
