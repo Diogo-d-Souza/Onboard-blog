@@ -23,14 +23,14 @@ export const Header = styled.div`
         position: absolute;
     }
 
-    .botao-login {
+    .botao_login {
         width: 84px;
         height: 36px;
         margin-right: 2.4rem;
         position: relative;
     }
 
-    .botao-cadastro {
+    .botao_cadastro {
         width: 84px;
         height: 36px;
         margin-right: 4rem;
@@ -41,12 +41,6 @@ export const Header = styled.div`
         height: 0.1rem;
         width: 100%;
         background-color: white;
-    }
-
-    .header_inf {
-        display: flex;
-        height: 8rem;
-        width: 100%;
     }
 
     .search {
