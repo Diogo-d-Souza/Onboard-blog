@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
         font-size: 62.5%;
     }
 
-    .button-artigo {
+    .button_artigo {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -24,11 +24,11 @@ const GlobalStyle = createGlobalStyle`
         gap: 1.48rem;
     }
 
-    .p-butao {
+    .p_butao {
         font-size: 1.4rem;
     }
 
-    .artigo-principal {
+    .artigo_principal {
         display: flex;
         width: 77.7rem;
         height: 21.7rem;
@@ -39,7 +39,7 @@ const GlobalStyle = createGlobalStyle`
         border-radius: 1.6rem;
     }
 
-    .img-principal {
+    .img_principal {
         width: 30.7rem;
         height: 21.6rem;
         border-radius: 1.6rem;
@@ -52,12 +52,12 @@ const GlobalStyle = createGlobalStyle`
         flex-direction: column;
     }
 
-    .titulos-principal {
+    .titulos_principal {
         display: flex;
         justify-content:space-between;
     }
 
-    .h2-principal {
+    .h2_principal {
         margin-right: 10.1rem;
         margin-left: 1.2rem;
         margin-top: 1.8rem;
@@ -65,14 +65,14 @@ const GlobalStyle = createGlobalStyle`
         font-size: 2rem;
     }
 
-    .h3-principal {
+    .h3_principal {
         margin-right: 4.1rem;
         margin-top: 2.3rem;
         margin-bottom: 2.4rem;
         font-size: 1.4rem;
     }
 
-    .p-principal {
+    .p_principal {
         margin-left: 1.2rem;
         margin-right: 2.1rem;
         font-size: 1.4rem;
@@ -87,11 +87,11 @@ const GlobalStyle = createGlobalStyle`
         justify-content: end;
     }
 
-    .linha-artigos1, .linha-artigos2 {
+    .linha_artigos1, .linha_artigos2 {
         display: flex;
     }
 
-    .botao-linha {
+    .botao_linha {
         display: flex;
         align-items:flex-end;
         margin-left: 3.2rem;
@@ -105,12 +105,12 @@ const GlobalStyle = createGlobalStyle`
         margin-left: 0.5rem;
     }
 
-    .h2-filtro {
+    .h2_filtro {
         font-weight: 400;
         font-size: 3.2rem;
     }
 
-    .icone-filtro {
+    .icone_filtro {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -121,7 +121,7 @@ const GlobalStyle = createGlobalStyle`
         display: flex;
     }
 
-    .ver-mais {
+    .ver_mais {
         display: flex;
         width: 9.4rem;
         height: 1.9rem;

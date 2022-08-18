@@ -1,11 +1,9 @@
 import styled from "styled-components";
 
 export const Header = styled.div`
-        width: 100%;
-        height: 17.7rem;
-        background-color: black;
-
-    
+    width: 100%;
+    height: 17.7rem;
+    background-color: black;
 
     .header_sup {
         display: flex;
@@ -37,12 +35,6 @@ export const Header = styled.div`
         height: 0.1rem;
         width: 100%;
         background-color: white;
-    }
-
-    .header_inf {
-        display: flex;
-        height: 8rem;
-        width: 100%;
     }
 
     .search {
