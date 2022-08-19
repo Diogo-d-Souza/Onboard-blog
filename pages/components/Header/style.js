@@ -1,18 +1,27 @@
 import styled from "styled-components";
 
 export const Cabecalho = styled.div`
-        width: 100%;
-        height: 17.7rem;
-        background-color: black;
     .header_sup {
+        background-color: black;
         display: flex;
-        height: 9.5rem;
+        height: 8rem;
         width: 100%;
         align-items: center;
         margin-bottom: 0.1rem;
         justify-content: flex-end;
     }
+
+    .header_inf {
+        background-color: black;
+        display: flex;
+        height: 8rem;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
     h1 {
+        position: absolute;
         display: flex;
         justify-content: center;
         color: white;
@@ -21,11 +30,13 @@ export const Cabecalho = styled.div`
     }
     
     .botao-login {
+        position: relative;
         width: 84px;
         height: 36px;
         margin-right: 2.4rem;
     }
     .botao-cadastro {
+        position: relative;
         width: 84px;
         height: 36px;
         margin-right: 4rem;
@@ -35,30 +46,27 @@ export const Cabecalho = styled.div`
         width: 100%;
         background-color: white;
     }
-    .header_inf {
-        display: flex;
-        height: 8rem;
-        width: 100%;
-    }
     .search {
         display: flex;
         justify-content: end;
-        margin-right: 4.2rem;
+        padding-right: 4rem;
+        align-items: center;
     }
     .pesquisar {
         width: 41.5rem;
         height: 4.708rem;
-        margin-top: 1.2rem;
         border-radius: 1.6rem;
         position: absolute;
+        padding-left: 1rem;
+        font-size: 2rem;
         
     }
     .botao_lupa {
         border: none;
         background-color: transparent;
-        margin-top: 1.7rem;
         margin-right: 1rem;
         position: relative;
+
     }
 `;
 

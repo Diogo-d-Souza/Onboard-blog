@@ -15,7 +15,7 @@ export const Aside = styled.aside`
 
 export const Aside2 = styled.aside`
     display: flex;
-    width: 630px;
+    width: 800px;
     height: 110px;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,7 @@ export const DivCentroTexto = styled.div`
 
 export const Retangulo = styled.div`
     background-color: gray;
-    width: 630px;
+    width: 800px;
     height: 1400px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -100,7 +100,7 @@ export const Comentarios = styled.div`
 .comentar{
         border-radius: 30px;
         height: 50px;
-        width: 630px;
+        width: 800px;
         font-size: 26px;
         padding-left: 20px;
     }

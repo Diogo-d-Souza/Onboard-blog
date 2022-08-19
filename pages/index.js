@@ -1,6 +1,6 @@
-import Header from "./components/header";
 import GlobalStyle from "../styles/globals";
-import ArtigoPrincipal from "./components/Art_principal";
+import ArtigoPrincipal from "./components/Art_Principal";
+import Header from "./components/Header";
 
 export default function Home (){
   return (
@@ -8,7 +8,7 @@ export default function Home (){
       <GlobalStyle/>
       <main>
         <Header/>
-        <ArtigoPrincipal></ArtigoPrincipal>
+        <ArtigoPrincipal/>
       </main>
     </>
   )

@@ -1,16 +1,13 @@
-import GlobalStyle from "../../../styles/globals";
 import ArtigoPequeno from "../OutrosArtigos";
 import { Aside, Div, DivCentroTexto, Main, Retangulo, Seta_area, Div2, Aside2, Comentarios } from "./style";
 
 export default function ArtigoPrincipal() {
     return (
         <>
-            <GlobalStyle />
             <Main>
-
                 <Div>
                     <Seta_area>
-                        <button class="back"><svg width="51" height="53" viewBox="0 0 51 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <button className="back"><svg width="51" height="53" viewBox="0 0 51 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M46.75 25.1169V27.2942C46.75 27.8955 46.2743 28.3829 45.6875 28.3829H11.3263L20.7825 38.0504C20.9836 38.2549 21.0968 38.5331 21.0968 38.8234C21.0968 39.1137 20.9836 39.392 20.7825 39.5964L19.2738 41.1205C19.0742 41.3266 18.8027 41.4426 18.5194 41.4426C18.2361 41.4426 17.9645 41.3266 17.765 41.1205L4.7175 27.7732C4.41853 27.4673 4.25037 27.0522 4.25 26.6192V25.7918C4.2549 25.3598 4.42237 24.9464 4.7175 24.6378L17.765 11.2905C17.9645 11.0844 18.2361 10.9685 18.5194 10.9685C18.8027 10.9685 19.0742 11.0844 19.2738 11.2905L20.7825 12.8365C20.9824 13.0371 21.095 13.3118 21.095 13.5986C21.095 13.8853 20.9824 14.16 20.7825 14.3606L11.3263 24.0282H45.6875C46.2743 24.0282 46.75 24.5156 46.75 25.1169Z" fill="#333333" />
                         </svg>
                         </button>
@@ -19,12 +16,12 @@ export default function ArtigoPrincipal() {
                     <Div2>
                         <div>
                             <Aside2>
-                                <h1 class="titulo">Titulo</h1>
+                                <h1 className="titulo">Titulo</h1>
                             </Aside2>
                             <Retangulo>
-                                <div class="estrela">
+                                <div className="estrela">
                                     <svg width="149" height="23" viewBox="0 0 149 23" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                        class="stars2">
+                                        className="stars2">
                                         <path
                                             d="M11.845 1.57547L14.0302 8.10499L14.1444 8.4463H14.5044H21.534L15.8597 12.4488L15.5557 12.6633L15.6738 13.0161L17.8491 19.5159L12.1332 15.484L11.845 15.2807L11.5568 15.484L5.84093 19.5159L8.0162 13.0161L8.13428 12.6633L7.83026 12.4488L2.15601 8.4463H9.18563H9.54556L9.65978 8.10499L11.845 1.57547Z"
                                             fill="#FFF500" stroke="black" />
@@ -42,15 +39,15 @@ export default function ArtigoPrincipal() {
                                             fill="#FFF500" stroke="black" />
                                     </svg>
                                 </div>
-                                <div class="divtema">
+                                <div className="divtema">
                                     <h1>Tema: Lorem Ipsum</h1>
                                 </div>
 
-                                <div class="foto">
+                                <div className="foto">
                                     <img src="./foto1.png" alt="" />
                                 </div>
 
-                                <DivCentroTexto><h1 class="texto">Lorem ipsum dolor sit amet. Et illum tenetur et sint quos rem enim quibusdam aut neque amet! Aut
+                                <DivCentroTexto><h1 className="texto">Lorem ipsum dolor sit amet. Et illum tenetur et sint quos rem enim quibusdam aut neque amet! Aut
                                     vitae dolorem quaerat vitae et odio voluptatem magnam voluptas et blanditiis impedit. Non dolorum
                                     corrupti sed doloremque repudiandae est voluptate facere eum voluptatum aperiam ut nobis tenetur.
                                     Non accusamus tempore ut voluptate error et blanditiis iste? Est facere quis ut perferendis repellat
@@ -70,7 +67,7 @@ export default function ArtigoPrincipal() {
                             <div>
                                 <div>
                                     <svg width="149" height="23" viewBox="0 0 149 23" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                        class="stars2">
+                                        className="stars2">
                                         <path
                                             d="M11.845 1.57547L14.0302 8.10499L14.1444 8.4463H14.5044H21.534L15.8597 12.4488L15.5557 12.6633L15.6738 13.0161L17.8491 19.5159L12.1332 15.484L11.845 15.2807L11.5568 15.484L5.84093 19.5159L8.0162 13.0161L8.13428 12.6633L7.83026 12.4488L2.15601 8.4463H9.18563H9.54556L9.65978 8.10499L11.845 1.57547Z"
                                             fill="#FFF500" stroke="black" />
@@ -90,8 +87,8 @@ export default function ArtigoPrincipal() {
                                 </div>
                                 <Comentarios>
                                     <h1>Comentarios:</h1>
-                                    <textarea class="comentar" />
-                                    <div class="publicar">
+                                    <textarea className="comentar" />
+                                    <div className="publicar">
                                         <button>Publicar</button>
                                     </div>
                                 </Comentarios>
