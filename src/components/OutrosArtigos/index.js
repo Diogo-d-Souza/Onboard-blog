@@ -1,4 +1,4 @@
-import GlobalStyle from "../../../styles/globals";
+import GlobalStyle from "../../styles/globals";
 import { Div, Div2 } from "./style";
 
 export default function ArtigoPequeno({ img, title, text }) {
