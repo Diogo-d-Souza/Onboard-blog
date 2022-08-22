@@ -1,14 +1,13 @@
 import GlobalStyle from "../styles/globals";
-import ArtigoPrincipal from "../components/Art_Principal";
 import Header from "../components/Header";
-
+import Publicar from "../components/Publicar";
 export default function Home (){
   return (
     <>
       <GlobalStyle/>
       <main>
         <Header/>
-        <ArtigoPrincipal/>
+        <Publicar/>
       </main>
     </>
   )
