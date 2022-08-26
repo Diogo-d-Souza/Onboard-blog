@@ -1,4 +1,4 @@
-import GlobalStyle from "../../styles/globals";
+import GlobalStyle from "../styles/globals";
 import Artigos from "../components/Artigos";
 import Filtros from "../components/Filtros";
 import Cabecalho from "../components/Cabecalho";

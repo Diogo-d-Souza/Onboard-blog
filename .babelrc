@@ -20,8 +20,8 @@
 // só no dev mode que não ia pra produção.
 // Não entendi muito bem.
 
-{
-    "presets": ["next/babel"],
-    "plugins": [["styled-components", { "ssr": true }]]
-}
+// {
+//     "presets": ["next/babel"],
+//     "plugins": [["styled-components", { "ssr": true }]]
+// }
 
