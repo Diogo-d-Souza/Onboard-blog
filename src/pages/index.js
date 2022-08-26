@@ -1,7 +1,7 @@
-import GlobalStyle from "../styles/globals";
-import Artigos from "../src/components/Artigos";
-import Filtros from "../src/components/Filtros";
-import Cabecalho from "../src/components/Cabecalho";
+import GlobalStyle from "../../styles/globals";
+import Artigos from "../components/Artigos";
+import Filtros from "../components/Filtros";
+import Cabecalho from "../components/Cabecalho";
 
 
 export default function Home (){ 
