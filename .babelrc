@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
     "presets": [
       "next/babel"
@@ -14,7 +14,6 @@
       ]
     ]
   }
-=======
 // Para resolver o problema:
 // Warning: Prop className did not match
 // Eu pesquisei e a internet dizia que era um erro que acontecia
@@ -25,4 +24,4 @@
     "presets": ["next/babel"],
     "plugins": [["styled-components", { "ssr": true }]]
 }
->>>>>>> header
+
