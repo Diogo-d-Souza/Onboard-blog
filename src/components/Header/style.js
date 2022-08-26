@@ -2,17 +2,29 @@ import styled from "styled-components";
 
 export const Cabecalho = styled.div`
     .header_sup {
-        background-color: black;
+        background-color: #222;
         display: flex;
         height: 8rem;
         width: 100%;
         align-items: center;
         margin-bottom: 0.1rem;
         justify-content: flex-end;
+        
+        button{
+            color: black;
+            width: 150px;
+            height: 60px;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            border-radius: .8em;
+            font-size: 1.5em;
+            /* font-weight: bold; */
+        }
     }
 
     .header_inf {
-        background-color: black;
+        background-color: #222;
         display: flex;
         height: 8rem;
         width: 100%;
@@ -31,14 +43,10 @@ export const Cabecalho = styled.div`
     
     .botao-login {
         position: relative;
-        width: 84px;
-        height: 36px;
         margin-right: 2.4rem;
     }
     .botao-cadastro {
         position: relative;
-        width: 84px;
-        height: 36px;
         margin-right: 4rem;
     }
     .linha_branca {
@@ -53,7 +61,7 @@ export const Cabecalho = styled.div`
         align-items: center;
     }
     .pesquisar {
-        width: 41.5rem;
+        width: 40rem;
         height: 4.708rem;
         border-radius: 1.6rem;
         position: absolute;

@@ -20,7 +20,7 @@ export const Aside2 = styled.aside`
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: gray;
+    background-color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
@@ -31,14 +31,13 @@ export const Aside2 = styled.aside`
 
 export const Main = styled.main`
     display:flex;
+    background-color: #cccc;
 `
 
 export const Div2 = styled.div`
     display:flex;
     justify-content: center;
     align-items: center;
-
-
 `
 
 export const DivCentroTexto = styled.div`
@@ -55,7 +54,7 @@ export const DivCentroTexto = styled.div`
 `
 
 export const Retangulo = styled.div`
-    background-color: gray;
+    background-color: white;
     width: 800px;
     height: 1400px;
     border-bottom-left-radius: 20px;
@@ -115,7 +114,7 @@ export const Comentarios = styled.div`
         width: 80px;
         height: 40px;
         border-radius: 20px;
-        background-color: black;
+        background-color: #222;
         color: white;
     }
 `

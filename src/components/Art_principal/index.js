@@ -14,7 +14,7 @@ export default function ArtigoPrincipal() {
                         <h1>Tecnologia</h1>
                     </Seta_area>
                     <Div2>
-                        <div>
+                        <main>
                             <Aside2>
                                 <h1 className="titulo">Titulo</h1>
                             </Aside2>
@@ -93,15 +93,15 @@ export default function ArtigoPrincipal() {
                                     </div>
                                 </Comentarios>
                             </div>
-                        </div>
+                        </main>
                     </Div2>
 
                 </Div>
                 <Aside>
                     <h1>Outros artigos...</h1>
-                    <ArtigoPequeno img="terra" title="Titulo1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"/>
-                    <ArtigoPequeno img="img1" title="Titulo2" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"/>
-                    <ArtigoPequeno img="ave" title="Titulo3" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"/>
+                    <ArtigoPequeno img="terra" title="Titulo1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt" />
+                    <ArtigoPequeno img="img1" title="Titulo2" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt" />
+                    <ArtigoPequeno img="ave" title="Titulo3" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt" />
                 </Aside>
             </Main >
         </>
