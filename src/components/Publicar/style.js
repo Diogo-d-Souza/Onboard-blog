@@ -3,12 +3,14 @@ import styled from "styled-components";
 export const Publico = styled.div`
 
     *{
+
         box_sizing: border-box;
         margin: 0;
     }
 
     html {
         font-size: 62.5%;
+        
     }
     
     // .filho2 {
@@ -20,7 +22,6 @@ export const Publico = styled.div`
     //     align-items: center;
     //     padding-right: 4rem;
     // }
-
    
 
     input {
@@ -30,40 +31,51 @@ export const Publico = styled.div`
     }
 
     
-
     .seta{
         background-color: transparent;
         border: transparent;
-        top: 3rem;
-        left: 3rem;
-        position: absolute;
+        margin-left: 3rem;
+        margin-right: 5rem;
+        display: flex;
+        
     }
-
-   
 
     .proximo {
         background-color: #1145FF;
         color: white;
         width: 208px;
         height: 73px;   
-        border-radius: 5rem;
-        position: absolute;
+        border-radius: 5rem;        
+        font-size:1.5rem;
+        display:flex;
         bottom: 5rem;
-        right: 5rem;
         border: none;
-    
+        justify-content: center; 
+        align-items: center;
+        
+        
     }
 
-    main{
-        background-color: #ECECEC;
+    .botao {
+        width:100%;
+        display:flex;
+        justify-content: end;
+        padding-top: 25px;
+    
+       
+
+    }
+
+    .main{
+       
         min-height: calc(100vh - 8rem - 8rem - 0.1rem);
-        position: relative;
-        display: flex;
+        display:  grid;
         justify-content: center;
         align-items: center;
-        margin-top: 10rem;
-        margin-right:10rem;
-        margin-left:10rem;
+        // margin-top: 5rem;
+        // margin-right:10rem;
+        padding-bottom: 5rem;
+        
 
     }
 
@@ -86,13 +98,4 @@ export const Publico = styled.div`
         resize: none;
     }
 
-    .foto {
-        position: relative;
-        left: 72rem;
-    }
-
-    .usuario {
-        position: relative;
-        left: 66.3rem;
-    }
-`;
+    `;
