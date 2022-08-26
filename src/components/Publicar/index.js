@@ -19,7 +19,7 @@ export default function Publicar(){
                             </div>
                             <div className="botao">
                              <button className="proximo">
-                                Publicar``
+                                Publicar
                          </button></div>
                         </div>
                     </div>
