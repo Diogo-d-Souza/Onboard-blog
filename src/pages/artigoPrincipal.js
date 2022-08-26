@@ -9,7 +9,7 @@ export default function Home (){
       <main>
         <Header/>
         <ArtigoPrincipal/>
-      </main>
+      </main >
     </>
   )
 }
