@@ -1,0 +1,27 @@
+
+{
+    "presets": [
+      "next/babel"
+    ],
+    "plugins": [
+      [
+        "styled-components",
+        {
+          "ssr": true,
+          "displayName": true,
+          "preprocess": false
+        }
+      ]
+    ]
+  }
+// Para resolver o problema:
+// Warning: Prop className did not match
+// Eu pesquisei e a internet dizia que era um erro que acontecia
+// só no dev mode que não ia pra produção.
+// Não entendi muito bem.
+
+// {
+//     "presets": ["next/babel"],
+//     "plugins": [["styled-components", { "ssr": true }]]
+// }
+
