@@ -1,13 +1,15 @@
 import { Header } from "./style";
+import { useRouter } from "next/router";
 
 export default function Cabecalho() {
+    const router = useRouter();
     return (
         <>
             <Header>
                 <div className="header_sup">
                     <h1>NOME DO BLOG</h1>
-                    <button className="botao_login">Logar</button>
-                    <button className="botao_cadastro">Cadastrar</button>
+                    <button className="botao_login" onClick={() => router.push('../../login')}>Logar</button>
+                    <button className="botao_cadastro" onClick={() => router.push('../../cadastro')}>Cadastrar</button>
                 </div>
                 <div className="linha_branca"></div>
                 <div className="header_inf">

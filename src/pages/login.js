@@ -68,7 +68,7 @@ export default function Login() {
                         <input placeholder="Senha" />
                     </div>
                     <div>
-                        <button onClick={() => router.push('./')} >Entrar</button>
+                        <button onClick={() => router.push('./home')} >Entrar</button>
                         <button onClick={() => router.push('./cadastro')} >Cadastrar</button>
                     </div>
                 </main>
