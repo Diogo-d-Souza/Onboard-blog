@@ -34,8 +34,11 @@ export const Publico = styled.div`
         border: transparent;
         margin-left: 3rem;
         margin-right: 5rem;
+        margin-top: 2.3rem; 
         display: flex;
-        
+        width: 5.1rem;
+        height: 5.1rem;
+        align-items: center;
     }
 
     .proximo {
