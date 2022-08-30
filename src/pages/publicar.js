@@ -1,12 +1,12 @@
 import GlobalStyle from "../styles/globals";
-import Header from "../components/Cabecalho";
+import Cabecalho_Logado from "../components/Cabecalho_Logado";
 import Publicar from "../components/Publicar";
 export default function Home (){
   return (
     <>
       <GlobalStyle/>
       <main>
-        <Header/>
+        <Cabecalho_Logado/>
         <Publicar/>
       </main>
     </>

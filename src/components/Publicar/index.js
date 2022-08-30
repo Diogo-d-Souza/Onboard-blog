@@ -9,7 +9,7 @@ export default function Publicar(){
             <Publico>
                 <div className="filho2">
                     <div>
-                        <button className="seta" onClick={() => router.push('../../')}>
+                        <button className="seta" onClick={() => router.push('../../home')}>
                             <svg width="43" height="31" viewBox="0 0 43 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M42.75 14.4374V16.5624C42.75 17.1492 42.2743 17.6249 
                                 41.6875 17.6249H7.32625L16.7825 27.0599C16.9836 27.2594 17.0968 
